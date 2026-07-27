@@ -18,4 +18,4 @@ jobs:
           aws-region: eu-north-1
       - name: Code static website to s3
         run: |
-          aws s3 sync . s3://ci-cd-bucket3 --delete
+          aws s3 sync . s3://pipeline-ci-cd-bucket-demo --delete
